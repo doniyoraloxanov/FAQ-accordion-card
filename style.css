@@ -1,0 +1,113 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+
+/*
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.section-accordion {
+  background-image: linear-gradient(rgb(175, 103, 233), rgb(101, 101, 231));
+  padding-top: 16rem;
+  height: 100vh;
+  position: relative;
+}
+.accordion {
+  max-width: 65rem;
+  margin: 0 auto;
+  display: grid;
+  background-color: #fff;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 3.2rem 3.2rem;
+  justify-content: center;
+}
+
+.patter-image {
+  max-width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 150px;
+  left: 140px;
+}
+
+.accordion-img-box {
+  display: grid;
+}
+
+.accordion-img {
+  justify-self: center;
+  width: 85%;
+  margin-right: 150px;
+}
+
+.accordion-text-box {
+  align-self: start;
+}
+.heading-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+/* .accordion-card {
+} */
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-title {
+  font-size: 1.2rem;
+  color: hsl(237, 12%, 33%);
+}
+.accordion-description {
+  color: hsl(240, 6%, 50%);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+.accordion-icon-bottom {
+  color: hsl(14, 88%, 65%);
+  font-size: 1.4rem;
+}
+
+.accordion-icon-top {
+  color: hsl(14, 88%, 65%);
+  font-size: 1.4rem;
+}
+
+/* .accordion-icon-top {
+} */
+
+.hidden {
+  display: none;
+}
