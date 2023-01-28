@@ -10,7 +10,7 @@ Users should be able to:
 
 ### Desktop version
 
-![Desktop vesrion](./images/desktop-version-one.png)
+![Desktop vesrion](./images/desktop-version.png.png)
 
 ### Links
 
